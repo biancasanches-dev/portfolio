@@ -184,6 +184,7 @@ main {
 
 .button {
     background-image: linear-gradient(135deg, #9CD3D8, #0396A6);
+    text-align: center;
     border: none;
     border-radius: 6px;
     color: #fff;

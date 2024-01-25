@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 correspondingLink.classList.add('selected');
             }
         });
-    });
+    }, { threshold: 0.1 });
   
     sections.forEach(section => {
         observer.observe(section);
@@ -60,3 +60,4 @@ function menu(e) {
         blur.style.display = 'none';
     }
 }
+
